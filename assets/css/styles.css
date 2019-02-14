@@ -1,0 +1,739 @@
+
+
+/*navbar*/
+.navbar-fixed-top{
+	padding-top: 12px;
+	padding-bottom: 12px;
+	/*background-color: #33bb7a;*/
+    background-color: rgb(5,67,87);
+    /*-webkit-background-clip: text !important;*/
+    /*color:  transparent !important;*/
+
+	box-shadow: 0px 5px 26px -2px rgba(0, 0, 0, 0.35);
+	border: none !important;
+}
+
+.navbar-fixed-top #logo {
+	padding-top: 3px;
+	width: 50%;
+	margin-top: -20px;
+	margin-left: 20px;
+} 
+.navbar-fixed-top .navbar-collapse li a{
+	color: #fff !important;
+	font-weight: 600;
+	transition: all .25s;
+	font-size: 16px;
+	margin-left: 10px;
+	margin-right: 10px;
+
+}
+
+.navbar-fixed-top .navbar-collapse li a:hover{
+	background-color: rgb(5,67,87);
+
+}
+
+.dropdown-toggle {
+   cursor: pointer;
+   
+}
+
+
+#telefono a {
+	font-size: 22px;
+	margin-right: 15px;
+}
+
+.navbar-right .dropdown-menu{
+	padding-top: 20px;
+	padding-bottom: 10px;
+	border-radius: 20px;
+	border:  none;
+	margin-top: 12px !important;
+	 background-color: rgb(5,67,87);
+	opacity: 0.7;
+   
+}
+
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+    font-weight: 900 !important;
+    background-color: rgb(5,67,87);
+    display: block !important;
+}
+
+.dropdown-toggle .fa-caret-right {
+    position: absolute;
+    right: 20px;
+}
+
+.navbar-toggle{
+	margin-top: 20px;
+}
+.navbar-left .btn-menu{
+    background-color: rgb(237,237,237) !important;
+    border-radius: 20px !important;
+    padding-top: 6px !important;
+    padding-left: 8px !important;
+    padding-right: 8px !important;
+    padding-bottom: 2px !important;
+    margin-top: 20px;
+}
+
+
+/*/navbar*/
+
+/*iamgen info*/
+
+#img-info{
+	margin-top: 97px;
+    background-image: url(../img/1.png);
+    background-size: cover;
+    background-position: center;
+    height: 520px;
+}
+#info{
+	
+
+}
+#info h1{
+	color: #fff !important;
+	font-size: 95px;
+	margin-top: 30px;
+	
+}
+#info h2{
+	color: #fff !important;	
+	font-size: 30px;
+	margin-top: -15px;
+    margin-left: -20px;
+
+}
+#info h3{
+    color: rgb(73,236,255);
+    font-size: 50px;
+    margin-top: -15px;
+
+}
+#info h4{
+    color: rgb(73,236,255);
+    font-size: 35px;
+    margin-top: -15px;
+}
+
+#zip{
+  width: 320px;  
+}
+#zip input{
+    border-radius: 10px;
+    font-size: 20px;
+}
+.btn{
+    background-color:  rgb(2,76,111);
+    color: white;
+}
+.btn-principal{
+    background-color: rgb(5,67,87) !important;
+    color: #fff;
+    align-items: center;
+    position: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    border-radius: 10px;
+    width: 200px;
+    font-size: 20px;
+}
+.btn-principal:hover{
+     background-color: rgb(21, 189,204) !important;
+     color: rgb(5,67,87);
+
+}
+
+
+
+/*/iamgen info*/
+
+/*mision*/
+
+#mision{
+    margin-top: 20px;
+    margin-bottom: 40px;
+
+}
+
+#title-mision h2{
+    font-size: 32px;
+    color: rgb(5,67,87);
+    margin-top: 20px;
+
+}
+
+#title-mision h4{
+
+    font-size: 28px;
+    color: rgb(21, 189,204);
+    margin-bottom: 30px;
+
+}
+
+#forma{
+    margin-left: 0px;
+    margin-top: 80px;
+
+}
+#cuadro{
+    background-color: rgb(220,220,235);
+    height: 250px;
+    width: 380px;
+    border-radius: 20px;
+    margin-left: 50px;
+    -webkit-box-shadow: -9px 7px 22px 3px rgba(140,129,140,1);
+    -moz-box-shadow: -9px 7px 22px 3px rgba(140,129,140,1);
+    box-shadow: -9px 7px 22px 3px rgba(140,129,140,1);
+
+}
+
+#cuadro img{
+    margin-top: -50px !important;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: -20px;
+}
+#cuadro h2{
+    color: rgb(5,67,87)
+}
+
+#cuadro h4{
+    margin-top: 10px;
+
+
+}
+.btn-forma{
+    background-color: rgb(5,67,87) !important;
+    color: #fff;
+    align-items: center;
+    position: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    border-radius: 10px;
+    width: 200px;
+    font-size: 16px;
+}
+
+.btn-forma:hover{
+     background-color: rgb(21, 189,204) !important;
+     color: rgb(5,67,87);
+
+}
+
+#titlle-bottom{
+    margin-top: 40px !important;
+    margin-bottom: 20px !important;
+}
+
+/*/mision*/
+
+/*ayuda*/
+#ayuda{
+    background-image: url(../img/ayuda.png);
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+    margin-bottom: 50px;
+
+}
+
+#cuager{
+    margin-top: 20px;
+
+}
+
+#ayuda-title h2{
+
+    color: #fff !important;
+    margin-top: -5px;
+}
+
+
+#ayuda-title h3{
+    margin-top: 50px;
+    color: rgb(5,67,87);
+}
+#cuadro-a{
+    color: #fff;
+    margin-top: 60px;
+}
+
+#cuadro-a h3{
+    margin-top: -110px;
+    margin-left: 140px;
+
+}
+
+#cuadro-a p {
+    margin-left: 145px;
+    margin-top: -8px;
+}
+
+/*/ayuda*/
+
+/*conoce*/
+#conoce-titles{
+   
+}
+
+#conoce-titles h2{
+    color: rgb(5,67,87);
+
+}
+
+#conoce-titles h3{
+    color: rgb(21, 189,204);
+    margin-top: -10px;
+}
+#conoce-cuadro{
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+#conoce-cuadro img{
+
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/*/conoce*/
+
+/*footer*/
+#footer{
+    background-color: rgb(5,67,87);
+}
+#siguenos{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+#siguenos img:hover{
+    margin-left: 8px;
+    -webkit-box-shadow: 17px 21px 34px 0px rgba(0,0,0,0.73);
+    -moz-box-shadow: 17px 21px 34px 0px rgba(0,0,0,0.73);
+    box-shadow: 17px 21px 34px 0px rgba(0,0,0,0.73);
+    border-radius: 100px;
+    border:  1px solid gray;
+}
+
+#siguenos h2{
+    color: #fff;
+    margin-bottom: -18px;
+}
+#siguenos a{
+    color: #fff;
+}
+
+#suscribete h1,
+#suscribete h3{
+    color: #fff;
+
+}
+
+#suscribete h1{
+    margin-top: 20px;
+    margin-bottom: -10px;
+}
+
+#suscribete h3{
+
+    margin-top: -10px;
+    margin-bottom: -30px;
+}
+
+#suscribete .input-group{
+
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border: transparent;
+}
+
+#suscribete span{
+    background-color: rgb(5,67,87);
+    color: #fff;    
+
+}
+
+.btn-form{
+    background-color: #fff;
+    color: rgb(5,67,87);
+    position: initial;
+    border-radius: 5px;
+}
+.btn-form:hover{
+    background-color: rgb(21, 189,204);
+    color: #fff;
+    -webkit-box-shadow: 17px 21px 34px 0px rgba(0,0,0,0.73);
+    -moz-box-shadow: 17px 21px 34px 0px rgba(0,0,0,0.73);
+    box-shadow: 17px 21px 34px 0px rgba(0,0,0,0.73);
+
+    
+}
+#derechos{
+    color: #fff;
+}
+
+#derechos h4{
+    margin-bottom: -10px;
+}
+
+/*/footer*/
+
+
+/*necesite info*/
+
+#necesi-info{
+    margin-top: 97px;
+    background-image: url(../img/necesita.png);
+    background-size: cover;
+    background-position: center;
+    height: 520px;
+}
+#neces{
+    
+
+}
+#neces h1{
+    color: #fff !important;
+    font-size: 95px;
+    margin-top: 0px;
+    margin-left: 90px;
+    margin-top: 30px;
+    
+}
+#neces h2{
+    color: #fff !important; 
+    font-size: 37px;
+    margin-top: -10px;
+  
+    
+
+}
+#neces h3{
+    color: rgb(73,236,255);
+    font-size: 50px;
+    margin-top: -15px;
+
+}
+#neces h4{
+    color: rgb(73,236,255);
+    font-size: 35px;
+    margin-top: -15px;
+    margin-left: 90px;
+    margin-bottom: 80px;
+}
+
+#historial{
+  margin-left: 170px;
+}
+#ayudar{
+   margin-left: 300px;
+}
+
+#propiedad-info{
+     margin-top: 97px;
+    background-image: url(../img/propiedad.png);
+    background-size: cover;
+    background-position: center;
+    height: 520px;
+
+}
+#nego-info{
+     margin-top: 97px;
+    background-image: url(../img/18.png);
+    background-size: cover;
+    background-position: center;
+    height: 520px;
+
+}
+
+#verificacion{
+    margin-left: 420px;
+}
+#verificacion2 {
+    margin-left: 390px;
+}
+
+
+
+
+/*/necesite info*/
+
+/* cuadro en orestamos*/
+
+
+#title-prestamo h2{
+    color: rgb(5,67,87);
+    margin-top: 20px;
+
+}
+
+#title-mision span{
+
+   
+    color: rgb(21, 189,204) !important);
+}
+#cuadro2{
+    background-color: rgb(220,220,235);
+    height: 250px;
+    width: 400px;
+    border-radius: 20px;
+    margin-left: 180px;
+    -webkit-box-shadow: -9px 7px 22px 3px rgba(140,129,140,1);
+    -moz-box-shadow: -9px 7px 22px 3px rgba(140,129,140,1);
+    box-shadow: -9px 7px 22px 3px rgba(140,129,140,1);
+    margin-bottom: 80px;
+
+}
+
+#cuadro2 img{
+    margin-top: -50px !important;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: -20px;
+}
+#cuadro2 h2{
+    color: rgb(21, 189,204)
+}
+
+#cuadro2 h4{
+    margin-top: 10px;
+
+
+}
+
+
+
+
+/*/cuadro en prestamos*/
+
+
+
+/*//////////////////////////////////////////
+///////////////////////////////////////////
+////////////QUERYS SCREEN/////////////////
+//////////////////////////////////////////
+////////////////////////////////////////*/
+
+@media screen and (max-width: 767px)
+{
+	 /* Navbar */
+    .navbar-fixed-top .navbar-brand {
+        width: 50%;
+    }
+    
+    .navbar-fixed-top #logo {
+        padding-top: 10px;
+        padding-left: 15px;
+        width: 70%;
+        margin-top: -25px;
+    }
+    
+    .navbar-collapse {
+        border: none !important;
+    }
+    
+    .navbar-header .btn-menu {
+        color: #fff;
+    }
+    
+    .navbar-header .navbar-toggle {
+        background-color: transparent !important;
+    }
+    
+    /*.navbar-collapse .navbar-right li a {
+        color: #fff !important;
+    }*/
+    
+    .dropdown-toggle .fa-caret-right {
+        right: 40px;
+        top: 52px;
+    }
+    
+    .dropdown-toggle #correo {
+        top: 200px;
+    }
+    
+    /*.navbar-collapse .dropdown-menu {
+        background-color: rgba(43, 44, 88, 0.95) !important;
+    }*/
+    
+    .navbar-collapse .submenu li a {
+        padding-top: 5px !important;
+        padding-bottom: 5px !important;
+        color: #2c3e50 !important;
+    }
+    /* /Navbar */
+
+
+/*info*/
+
+
+
+#img-info{
+    margin-top: 92px;
+   
+    height: 350px;
+}
+ 
+    #info h1{
+    
+    font-size: 45px;
+    
+    
+    }
+    #info h2{
+        
+        font-size: 30px;
+        
+        
+
+    }
+    #info h3{
+        
+        font-size: 40px;
+       
+
+    }
+    #info h4{
+        
+        font-size: 25px;
+        
+    }
+
+    /*info*/
+
+    /*servicios*/
+    #cuadro{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 90px;
+    }
+
+     #cuadro img{
+    margin-top: -50px !important;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: -20px;
+    }
+    /*servicios*/
+    
+    /*ayuda*/
+
+    #ayuda{
+        height: 1350px;
+    }
+
+    /*/ayuda*/
+
+    /*prestamo*/
+
+    #cuadro2{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 90px;
+    }
+
+     #cuadro2 img{
+    margin-top: -50px !important;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: -20px;
+    }
+
+    /*/prestamo*/
+
+
+    /*necesite info*/
+
+    #necesi-info{
+        margin-top: 92px !important;
+        
+    }
+    #neces{
+        
+
+    }
+    #neces h1{
+        
+        font-size: 45px;
+        margin-top: 50px;
+       
+        margin-left: 20px;
+        
+    }
+    #neces h2{
+        
+        font-size: 30px;
+        text-align: left;
+        margin-left: 40px;
+        margin-top: 0px !important;
+        
+      
+        
+
+    }
+    #neces h3{
+        color: rgb(73,236,255);
+        font-size: 40px;
+       
+        margin-left: 40px;
+        margin-bottom: 10px;
+        
+
+    }
+    #neces h4{
+        color: rgb(73,236,255);
+        font-size: 25px;
+        margin-top: -15px;
+        margin-left: 20px;
+        margin-bottom: 50px;
+    }
+
+    #historial{
+      margin-left: 40px !important;
+    }
+    #ayudar{
+       margin-left: 60px !important;
+    }
+    #propiedad-info{
+     margin-top: 92px;
+    
+
+    }
+    #nego-info{
+     margin-top: 92px;
+    
+
+    }
+
+
+
+
+
+/*/necesite info*/
+
+
+}
+
+
+
+/*/Querys screen*/
